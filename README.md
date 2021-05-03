@@ -42,3 +42,7 @@ To evaluate the performance of your model, you should use the accuracy metric, w
 ```bash
 CUDA_VISIBLE_DEVICES=0 python3 train.py
 ```
+
+# About Backbone Network
+
+We provide a simple backbone network, Small-Resnet18. However, you can use any other backbone networks for your problem.
